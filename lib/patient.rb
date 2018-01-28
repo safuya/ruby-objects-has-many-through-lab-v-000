@@ -1,4 +1,5 @@
 class Patient
+  attr_reader :appointments
 
   def initialize(name)
     @name = name
